@@ -2,7 +2,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/static/v1?label=NLW/Together&message=06&color=8257E5&labelColor=000000" alt="NLW Together 06">
-   
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DioenDJS/Projeto-Letmeask" >
 </p>
 
 <img src="NLW05.png" alt="imagem do projeto">
@@ -10,7 +10,7 @@
 ## Tecnologias Utilizadas no projeto :construction:
 
 - [Node.js](https://nodejs.org/en/) <img align="center" alt="img nodejs" height="20" width="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" style="max-width:100%;" />
-- [ReactJS](https://pt-br.reactjs.org/) <img align="center" alt="img_React" height="20" width="25" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" style="max-width:100%;" />
+- [ReactJS](https://pt-br.reactjs.org/) <img align="center" alt="img_React" height="20" width="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="max-width:100%;" />
 - [NextJS](https://nextjs.org/) <img align="center" alt="img Nextjs" height="20" width="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" style="max-width:100%;" />
 - [typescript](https://www.typescriptlang.org/) <img align="center" alt="img typescript" height="20" width="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" style="max-width:100%;" />
 - [Sass](https://sass-lang.com/) <img align="center" alt="img Sass" height="25" width="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" style="max-width:100%;" />
