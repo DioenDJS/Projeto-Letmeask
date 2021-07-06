@@ -33,7 +33,7 @@ Ao final a aplicação estará disponível em `http://localhost:3000`.
 
 > - create-react-app
 >
-> ```npx create-react-app letmeask --template typescript
+> ```npx create-react-app letmeask --template typescript ```
 
 > - firebase 
 >
