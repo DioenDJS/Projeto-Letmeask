@@ -5,7 +5,7 @@
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DioenDJS/Projeto-Letmeask" >
 </p>
 
-<img src="NLW05.png" alt="imagem do projeto">
+<img src="NLWtogether06.png" alt="imagem do projeto">
 
 ## Tecnologias Utilizadas no projeto :construction:
 
@@ -26,22 +26,34 @@ os podcasts serão fornecidos através de um arquivo json para nossa API.
 
 - Clone o repositório `https://github.com/DioenDJS/Projeto-Letmeask.git`.
 - Install as dependências com o comando `npm install`.
-- Rode o `npm run dev` para iniciar a aplicação.<br />
+- Rode o `npm start` para iniciar a aplicação.<br />
 Ao final a aplicação estará disponível em `http://localhost:3000`.
 
 ## Dependências do Projetos :card_index_dividers:
 
-> - Typescript 
-> - @types/react 
-> - @types/node 
+> - create-react-app
 >
-> ```npm install typescript @types/react @types/node -D```
+> ```npx create-react-app letmeask --template typescript
 
-> - Sass 
+> - firebase 
 >
-> ``npm install sass``
+> ``npm install firebase``
+
+> - node-sass 
+>
+> ``npm install node-sass@^5.0.0``
 
 
+## Fonts utilizadas no projeto :page_with_curl:
+
+
+- [Roboto - 400 500](https://fonts.google.com/specimen/Roboto?query=roboto)
+- [Poppins - 400 700](https://fonts.google.com/specimen/Poppins)
+
+```
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+```
 
 
 ## Aprendizado:
