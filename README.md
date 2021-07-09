@@ -22,6 +22,10 @@
 Este projeto e uma pagina de um podcast com paginas estaticas providas pelo Nextjs,
 os podcasts serão fornecidos através de um arquivo json para nossa API.
 
+> - create-react-app
+>
+> ```npx create-react-app letmeask --template typescript ```
+
 ## Como executar :gear:
 
 - Clone o repositório `https://github.com/DioenDJS/Projeto-Letmeask.git`.
@@ -31,9 +35,6 @@ Ao final a aplicação estará disponível em `http://localhost:3000`.
 
 ## Dependências do Projetos :card_index_dividers:
 
-> - create-react-app
->
-> ```npx create-react-app letmeask --template typescript ```
 
 > - firebase 
 >
@@ -42,6 +43,11 @@ Ao final a aplicação estará disponível em `http://localhost:3000`.
 > - node-sass 
 >
 > ``npm install node-sass@^5.0.0``
+
+> - react-router-dom / @types
+>
+> `` npm install react-router-dom``
+> `` npm install @types/react-router-dom``
 
 
 ## Fonts utilizadas no projeto :page_with_curl:
