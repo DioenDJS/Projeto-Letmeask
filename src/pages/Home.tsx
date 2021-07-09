@@ -1,19 +1,31 @@
+import { useContext } from 'react';
 import { useHistory } from 'react-router-dom';
+
+import { auth, firebase } from '../services/firebase';
 
 import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
 import googleIconImg from '../assets/images/google-icon.svg';
 import { Button } from '../components/Button';
 
+import { TestContext } from '../Router';
+
 import '../styles/auth.scss';
 
 export function Home() {
 
     const history = useHistory();
-
+    const value = useContext(TestContext);
     
     function handleCreateRoom(){
-        history.push('/rooms/new');
+
+        const provider = new firebase.auth.GoogleAuthProvider();
+
+        auth.signInWithPopup(provider).then(result => {
+            console.log(result);
+        });
+
+        // history.push('/rooms/new');
     }
 
     return(
@@ -43,3 +55,5 @@ export function Home() {
         </div>
     )
 }
+
+// parado na aula 2 com 1:00 de video
