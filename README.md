@@ -7,6 +7,7 @@
 
 <img src="NLWtogether06.png" alt="imagem do projeto">
 
+
 ## Tecnologias Utilizadas no projeto :construction:
 
 - [Node.js](https://nodejs.org/en/) <img align="center" alt="img nodejs" height="20" width="25" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" style="max-width:100%;" />
@@ -63,4 +64,6 @@ Ao final a aplicação estará disponível em `http://localhost:3000`.
 
 
 ## Aprendizado:
-> - O que aprendi neste projeto foi trabalhar com Firebase
+> - O que aprendi neste projeto foi trabalhar com Firebase com autenticação e a utilizar useContext e criar hooks para melhorar abstração criando variaveis de ambiente
+
+> - As regras de negocios feitas no firebase de criação de perguntas e criação de salas de exclução de sala 
