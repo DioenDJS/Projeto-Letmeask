@@ -38,7 +38,7 @@ export function Home() {
             return;
         }
 
-        history.push(`/rooms/${roomCode}`);//tempo 40:12 minutos aula 03
+        history.push(`/rooms/${roomCode}`);
     }
 
     return(
