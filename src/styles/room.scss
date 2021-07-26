@@ -61,6 +61,10 @@
                 align-items: center;
                 margin-top: 16px;
 
+                .user-info{
+                    display: flex;
+                }
+
                 span{
                     font-size: 14px;
                     color:var(--cinza);
