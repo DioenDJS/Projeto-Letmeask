@@ -48,10 +48,10 @@
                 gap: 8px;
 
                 &.liked {
-                    color:var(--color-like);
+                    color:var(--color-link);
 
                     svg path{
-                        stroke: var(--color-like);
+                        stroke:var(--color-link);
                     }
                 }
 

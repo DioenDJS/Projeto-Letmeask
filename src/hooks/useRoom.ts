@@ -24,6 +24,8 @@ type QuestionType = {
     content: string;
     isAnswered: boolean;
     isHighlighted: boolean;
+    likeCount: number;
+    likeId: string | undefined;
 }
 
 
@@ -49,17 +51,16 @@ export function useRoom(roomId: string){
                     isHighlighted: value.isHighlighted,
                     isAnswered: value.isAnswered,
                     likeCount: Object.values(value.likes ?? {}).length,
-                    hasLiked: Object.values(value.likes ?? {}).some(like => like.authorId === user?.id)
+                    likeId: Object.entries(value.likes ?? {}).find(([key, like]) => like.authorId === user?.id)?.[0],
                 }
             });
             setTitle(databaseRoom.title);
-            setQuestions(parsedQuestions)
+            setQuestions(parsedQuestions);
         })
 
         return () => {
             roomRef.off('value');
         }
-        //pausa do video aula 3 55:38
     }, [roomId, user?.id]);
 
     return{ questions, title}
