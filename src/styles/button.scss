@@ -18,6 +18,11 @@
     img{
         margin-right: 8px;
     }
+    &.outlined {
+        background:var(--white);
+        border:1px solid var(--roxo);
+        color:var(--roxo);
+    }
 
     &:not(:disabled):hover{
         filter:brightness(0.9);        
